@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(204, 251, 229);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: rgb(67, 63, 63);
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.accordions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.accordion-container {
+  width: 40rem;
+  height: auto;
+  padding: 0.8rem 2rem;
+  background-color: #fafafa;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+.opend {
+  border-top: 5px green solid;
+}
+
+.opend .header,
+.opend .num {
+  color: green;
+}
+.header {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.num {
+  color: rgb(121, 119, 117);
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+.absolute {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
